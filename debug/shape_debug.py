@@ -5,7 +5,7 @@ Shape debugging tool to trace tensor shapes through the network
 
 import torch
 import torch.nn as nn
-from models import NetworkBuilder
+from anomaly.models import NetworkBuilder
 
 def trace_network_shapes(receptive_field: int = 65, output_dim: int = 128):
     """Trace shapes through the network architecture"""

@@ -15,7 +15,6 @@ import torch
 import torch.nn as nn
 import numpy as np
 import matplotlib.pyplot as plt
-from typing import Dict, List, Tuple
 import traceback
 import time
 import warnings
@@ -34,7 +33,7 @@ except ImportError:
         TORCHINFO_AVAILABLE = None
 
 # Import our models
-from models import (
+from anomaly.models import (
     NetworkBuilder,
     TeacherNetwork,
     StudentNetwork,
