@@ -1,10 +1,6 @@
 """
 models.py
 Core network architectures for Student-Teacher Anomaly Detection
-<<<<<<< HEAD
-Fixed version addressing all shape and implementation issues
-=======
->>>>>>> 7965e9a398f730812246052e78e9aff32e177b24
 """
 
 import torch
