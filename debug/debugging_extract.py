@@ -378,7 +378,7 @@ def test_with_dataset():
     print("\n🗂️  Testing with Dataset Context")
     print("=" * 50)
 
-    from anomaly.datasets import TripletPatchDataset
+    from anomaly.dataset.datasets import TripletPatchDataset
 
     # Create dummy image paths (you can replace with real paths)
     dummy_paths = ["dummy1.jpg", "dummy2.jpg", "dummy3.jpg"]

@@ -132,7 +132,7 @@ def load_config(config_path: str) -> Dict[str, Any]:
 if __name__ == "__main__":
     #set_random_seeds(42)
     #device = get_device('cuda')
-    dirs = createdir_experiment("experiment")
+    dirs = createdir_experiment("experiments")
 
 
 

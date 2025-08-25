@@ -33,7 +33,7 @@ except ImportError:
         TORCHINFO_AVAILABLE = None
 
 # Import our models
-from anomaly.models import (
+from anomaly.model.models import (
     NetworkBuilder,
     TeacherNetwork,
     StudentNetwork,
